@@ -1,0 +1,18 @@
+[package]
+name = "sparrow"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tray-item = "0.9.0"
+
+proc_mem = { version = "0.1.4", path = "./procmem" }
+kanal = "0.1.0-pre8"
+tokio = { version = "1.35.0", features = ["full"] }
+futures = "0.3.29"
+tokio-tungstenite = "0.21.0"
+
+[build-dependencies]
+embed-resource = "2.3"
