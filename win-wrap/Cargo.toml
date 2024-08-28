@@ -1,0 +1,12 @@
+[package]
+name = "win-wrap"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blocking = "1.6.1"
+futures-lite = "2.3.0"
+log = "0.4.22"
+proc_mem = { path = "./proc_mem" }
